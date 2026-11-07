@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-mobile.png">
-  <img src="assets/profile-desktop.png" width="1600" alt="Pratham Sengar. Curious by default. A warm charcoal and sepia masthead with a sunglasses motif inspired by my profile picture.">
+  <source media="(max-width: 600px)" srcset="assets/profile-cat-mobile.png">
+  <img src="assets/profile-cat-desktop.png" width="1600" alt="Pratham Sengar. Curious by default. A dark charcoal and sepia masthead featuring the cat from my profile picture.">
 </picture>
 
 ## Hey, I’m Pratham.

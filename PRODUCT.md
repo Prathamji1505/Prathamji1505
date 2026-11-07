@@ -30,7 +30,7 @@ The existing public repository is Prathamji1505/Prathamji1505. GitHub displays i
 
 ## Brand Commitments
 
-The user requested a dark theme similar to his current GitHub profile picture: a warm, sepia-toned photograph of a cat wearing black sunglasses. Use its mood and tonal character as the anchor. Keep the profile picture unchanged. The previously reviewed Yoriichi-GOD profile is a presentation-quality reference, while Pratham's identity and writing remain original.
+The user requested a dark theme similar to his current GitHub profile picture. On 7 November 2026 he rejected standalone glasses as his representative symbol, requested the same cat as his actual profile picture, and asked to keep the presentation mysterious. Reuse that exact cat photograph, including its existing appearance, in a restrained charcoal and deep sepia frame. Preserve the source photo's pixels and the existing profile picture. The previously reviewed Yoriichi-GOD profile is a presentation-quality reference, while Pratham's identity and writing remain original.
 
 ## Evidence on Hand
 

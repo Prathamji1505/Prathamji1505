@@ -25,3 +25,13 @@ All three navigation destinations returned HTTP 200. The Activity target uses th
 - A separate finish review inspected all five theme/viewport captures and both raster masters and returned **ship**, with no material fixes.
 
 This is a static profile-document review. It does not establish application behavior, project performance, or user adoption. Project showcases and skill claims were deliberately excluded at the owner's request.
+
+## Cat correction, 7 November 2026
+
+The owner requested the exact cat from the existing profile picture and a mysterious presentation. The source portrait was independently compared with the downloaded avatar: identical decoded RGBA pixels and 460 × 460 dimensions; only origin metadata was added. No generated replacement cat is used.
+
+The updated 1600 × 580 and 800 × 900 mastheads use charcoal #191514 and deep sepia #352923. Fresh native-GitHub previews at 1440, 768, 390, and 360 pixels had no horizontal document overflow or broken README images. Both phone widths selected the dedicated portrait composition. A light-theme capture was also inspected.
+
+All three shipping PNGs carry embedded origin receipts. Generated SVG layout intermediates remain ignored and reference only the known local source photo. The four superseded standalone-glasses masters and rasters were removed from the current source. The detector returned no findings; whitespace validation passed.
+
+A fresh finish review inspected all five captures and both source photographs, independently confirmed pixel equality, and returned **ship**, with no material fixes. Its scope is this owner-pinned masthead correction.

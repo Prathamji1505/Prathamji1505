@@ -1,26 +1,17 @@
 # Profile identity assets
 
-Created on 7 November 2026 for Pratham Sengar / Prathamji1505.
+Updated on 7 November 2026 at Pratham Sengar's request: use the same cat as the GitHub profile picture and keep the presentation mysterious.
 
-The user requested a dark palette matching his existing sepia cat-with-sunglasses GitHub avatar. That photograph was inspected for visual direction. It remains unchanged and is not redistributed in these assets.
+## Cat photograph
 
-The sunglasses motif is an original flat geometric construction in `tools/build_assets.py`. SVG masters contain outlined lettering and vector paths, with no scripts, external resources, animation, embedded fonts, or product screenshots.
+assets/cat-portrait.png is the exact existing profile photograph downloaded from https://avatars.githubusercontent.com/u/330995804?v=4&s=800 and reused at the owner's explicit request. The cat, pose, expression, fur, existing appearance, crop, and photographic pixels are unchanged. Only origin metadata is added. The existing GitHub avatar is unchanged. No AI-generated replacement cat is used in the shipped design.
 
-The two PNGs are browser rasterizations of the corresponding SVG masters. The README uses PNG for consistent rendering, with a dedicated portrait composition selected by `picture` on narrow screens. These are identity graphics, not product or project evidence.
+## Mastheads
 
-## Typography
+assets/profile-cat-desktop.png and assets/profile-cat-mobile.png are lossless browser renderings of the outlined lettering, solid dark fields, and the exact source photo composed by tools/build_assets.py. Both carry origin receipts. The desktop is 1600 × 580; the mobile composition is 800 × 900. Native README content is unchanged apart from image paths and alternative text.
 
-Bricolage Grotesque is used under the SIL Open Font License. The original notice is in [licenses/BricolageGrotesque-OFL.txt](licenses/BricolageGrotesque-OFL.txt). Weight, width, and optical size are instantiated before lettering is outlined. Viewing the assets requires no font download.
+## Typography and rebuilding
 
-Pinned source: [Google Fonts, revision 6ce172f](https://github.com/google/fonts/blob/6ce172f74aa355ea43eb964fa4a91570a4d3064d/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf).
+Bricolage Grotesque remains under SIL OFL, with its original notice in licenses/BricolageGrotesque-OFL.txt. The pinned font source is https://github.com/google/fonts/blob/6ce172f74aa355ea43eb964fa4a91570a4d3064d/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf.
 
-## Rebuilding
-
-Download that font to `.local/fonts/BricolageGrotesque.ttf`, then run:
-
-```sh
-python -m pip install --target .local/lib -r tools/requirements.txt
-python tools/build_assets.py
-```
-
-The script builds both SVG masters and a hash manifest. Rasterize each SVG in a browser at its exact viewBox size: 1600 × 580 and 800 × 900. Save a lossless PNG of the entire viewport with no browser UI, resizing, or clipping. Preserve the SVG origin in PNG metadata and record the output hashes in the manifest. Update identity wording in the generator and personal prose in README.md.
+Download the font to .local/fonts/BricolageGrotesque.ttf, install tools/requirements.txt into .local/lib, and run python tools/build_assets.py. Render the two SVG intermediates in .local/masters/ at their exact viewBox sizes to the corresponding PNG paths under assets/. The intermediates reference the local source photo, so render them from their generated location. Keep their origin metadata and update assets/manifest.json. Intermediates stay ignored to avoid duplicating the photograph throughout the repository.
