@@ -1,0 +1,9 @@
+.local/
+.playwright-cli/
+__pycache__/
+*.pyc
+.impeccable/config.local.json
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/build/
