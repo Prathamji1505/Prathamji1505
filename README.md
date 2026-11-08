@@ -17,6 +17,12 @@ A curious builder based in **New Delhi, India**. I’m currently developing proj
 
 ### Right now
 
-I’m focused on building and refining my projects. I’ll share them here as they’re ready.
+I’m building **[SAMPATI · सम्पाति](https://github.com/Prathamji1505/sampati)**, an independent civilian disaster-response and relief-coordination application.
+
+It connects reviewed flood evidence, relief needs, aid inventory, shipment records and unmet-needs follow-up. The local release also includes structured file intake, optional automatic draft creation and a relief handover overview. Built with **React, TypeScript, FastAPI and PostgreSQL**.
+
+[Explore Sampati](https://github.com/Prathamji1505/sampati) · [Workflow and local setup](https://github.com/Prathamji1505/sampati/blob/main/docs/RELEASE.md)
+
+The current release uses fictional examples for local learning and evaluation; I’m continuing to learn through building, testing and refining it.
 
 <sub>Learning, building, getting better.</sub>
